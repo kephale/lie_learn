@@ -1,2 +1,17 @@
+# Include source files
+recursive-include lie_learn *.py
+recursive-include lie_learn *.pyx
+recursive-include lie_learn *.pxd
+
+# Include metadata
+include LICENSE
+include README.md
+include pyproject.toml
+
+# Exclude test files
 global-exclude tests/*
 global-exclude test_*.py
+global-exclude __pycache__/*
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git*
