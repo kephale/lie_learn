@@ -2,6 +2,7 @@
 recursive-include lie_learn *.py
 recursive-include lie_learn *.pyx
 recursive-include lie_learn *.pxd
+recursive-include lie_learn *.npy
 
 # Include metadata
 include LICENSE

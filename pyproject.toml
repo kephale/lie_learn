@@ -40,6 +40,9 @@ dependencies = [
 [tool.setuptools]
 include-package-data = true
 
+[tool.setuptools.package-data]
+"lie_learn" = ["**/*.npy"]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["lie_learn*"]
